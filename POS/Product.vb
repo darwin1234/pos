@@ -82,4 +82,5 @@ Public Class Product
         reload("SELECT * FROM products WHERE product_code LIKE '" & Searchtext.Text & "%' ", Me.DTGLIST)
 
     End Sub
+
 End Class

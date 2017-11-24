@@ -163,6 +163,12 @@
     <Compile Include="UpdateProduct.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UpdateSupplier.Designer.vb">
+      <DependentUpon>UpdateSupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateSupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddProduct.resx">
@@ -203,6 +209,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateProduct.resx">
       <DependentUpon>UpdateProduct.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateSupplier.resx">
+      <DependentUpon>UpdateSupplier.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
