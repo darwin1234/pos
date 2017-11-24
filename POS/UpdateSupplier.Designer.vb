@@ -34,6 +34,7 @@ Partial Class UpdateSupplier
         Me.contact = New System.Windows.Forms.TextBox()
         Me.address = New System.Windows.Forms.TextBox()
         Me.suppliername = New System.Windows.Forms.TextBox()
+        Me.SuplierID = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label6
@@ -135,11 +136,19 @@ Partial Class UpdateSupplier
         Me.suppliername.Size = New System.Drawing.Size(205, 20)
         Me.suppliername.TabIndex = 11
         '
+        'SuplierID
+        '
+        Me.SuplierID.Location = New System.Drawing.Point(393, 55)
+        Me.SuplierID.Name = "SuplierID"
+        Me.SuplierID.Size = New System.Drawing.Size(100, 20)
+        Me.SuplierID.TabIndex = 23
+        '
         'UpdateSupplier
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(319, 366)
+        Me.ClientSize = New System.Drawing.Size(320, 366)
+        Me.Controls.Add(Me.SuplierID)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
@@ -171,4 +180,5 @@ Partial Class UpdateSupplier
     Friend WithEvents contact As TextBox
     Friend WithEvents address As TextBox
     Friend WithEvents suppliername As TextBox
+    Friend WithEvents SuplierID As TextBox
 End Class
