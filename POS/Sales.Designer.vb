@@ -120,7 +120,7 @@ Partial Class Sales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(892, 380)
+        Me.ClientSize = New System.Drawing.Size(880, 380)
         Me.Controls.Add(Me.addbtn)
         Me.Controls.Add(Me.btnsave)
         Me.Controls.Add(Me.Searchtext1)

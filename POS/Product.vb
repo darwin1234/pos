@@ -68,10 +68,7 @@ Public Class Product
         UpdateProduct.sold.Text = DTGLIST.CurrentRow.Cells(11).Value
     End Sub
 
-    Private Sub DTGLIST_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles DTGLIST.CellContentClick
 
-
-    End Sub
 
     Private Sub BtnDelete_Click(sender As Object, e As EventArgs) Handles BtnDelete.Click
         Dim ID As Integer

@@ -11,4 +11,19 @@
     Private Sub Searchtext1_TextChanged(sender As Object, e As EventArgs) Handles Searchtext1.TextChanged
         reload("SELECT * FROM products WHERE product_code LIKE '" & Searchtext1.Text & "%' ", Me.prodlist)
     End Sub
+
+    Private Sub prodlist_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles prodlist.CellContentClick
+        UpdateProduct.productID.Text = prodlist.CurrentRow.Cells(0).Value
+        UpdateProduct.code.Text = prodlist.CurrentRow.Cells(1).Value
+        UpdateProduct.gen.Text = prodlist.CurrentRow.Cells(2).Value
+        UpdateProduct.nameCat.Text = prodlist.CurrentRow.Cells(3).Value
+        UpdateProduct.date_arrival.Text = prodlist.CurrentRow.Cells(4).Value
+        UpdateProduct.exdate.Text = prodlist.CurrentRow.Cells(5).Value
+        UpdateProduct.price.Text = prodlist.CurrentRow.Cells(6).Value
+        UpdateProduct.o_price.Text = prodlist.CurrentRow.Cells(7).Value
+        UpdateProduct.profit.Text = prodlist.CurrentRow.Cells(8).Value
+        UpdateProduct.supplier.Text = prodlist.CurrentRow.Cells(9).Value
+        UpdateProduct.qty.Text = prodlist.CurrentRow.Cells(10).Value
+        UpdateProduct.sold.Text = prodlist.CurrentRow.Cells(11).Value
+    End Sub
 End Class
