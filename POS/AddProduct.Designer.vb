@@ -49,7 +49,7 @@ Partial Class AddProduct
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(19, 416)
+        Me.Label4.Location = New System.Drawing.Point(12, 359)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(52, 13)
         Me.Label4.TabIndex = 43
@@ -57,15 +57,15 @@ Partial Class AddProduct
         '
         'qty
         '
-        Me.qty.Location = New System.Drawing.Point(123, 413)
+        Me.qty.Location = New System.Drawing.Point(116, 356)
         Me.qty.Name = "qty"
-        Me.qty.Size = New System.Drawing.Size(255, 20)
+        Me.qty.Size = New System.Drawing.Size(258, 20)
         Me.qty.TabIndex = 42
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(18, 390)
+        Me.Label10.Location = New System.Drawing.Point(11, 333)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(51, 13)
         Me.Label10.TabIndex = 41
@@ -74,7 +74,7 @@ Partial Class AddProduct
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(20, 365)
+        Me.Label9.Location = New System.Drawing.Point(13, 308)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(37, 13)
         Me.Label9.TabIndex = 40
@@ -83,7 +83,7 @@ Partial Class AddProduct
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(20, 334)
+        Me.Label8.Location = New System.Drawing.Point(13, 277)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(75, 13)
         Me.Label8.TabIndex = 39
@@ -92,7 +92,7 @@ Partial Class AddProduct
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(20, 305)
+        Me.Label7.Location = New System.Drawing.Point(13, 248)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(71, 13)
         Me.Label7.TabIndex = 38
@@ -101,7 +101,7 @@ Partial Class AddProduct
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(20, 278)
+        Me.Label6.Location = New System.Drawing.Point(13, 221)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(67, 13)
         Me.Label6.TabIndex = 37
@@ -110,7 +110,7 @@ Partial Class AddProduct
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(20, 245)
+        Me.Label5.Location = New System.Drawing.Point(13, 188)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(65, 13)
         Me.Label5.TabIndex = 36
@@ -119,7 +119,7 @@ Partial Class AddProduct
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(19, 138)
+        Me.Label3.Location = New System.Drawing.Point(12, 81)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(66, 26)
         Me.Label3.TabIndex = 35
@@ -128,7 +128,7 @@ Partial Class AddProduct
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(18, 112)
+        Me.Label2.Location = New System.Drawing.Point(11, 55)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(81, 13)
         Me.Label2.TabIndex = 34
@@ -137,7 +137,7 @@ Partial Class AddProduct
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(19, 81)
+        Me.Label1.Location = New System.Drawing.Point(12, 24)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(72, 13)
         Me.Label1.TabIndex = 33
@@ -145,7 +145,7 @@ Partial Class AddProduct
         '
         'savebtn
         '
-        Me.savebtn.Location = New System.Drawing.Point(204, 461)
+        Me.savebtn.Location = New System.Drawing.Point(204, 397)
         Me.savebtn.Name = "savebtn"
         Me.savebtn.Size = New System.Drawing.Size(174, 34)
         Me.savebtn.TabIndex = 32
@@ -154,35 +154,35 @@ Partial Class AddProduct
         '
         'profit
         '
-        Me.profit.Location = New System.Drawing.Point(122, 358)
+        Me.profit.Location = New System.Drawing.Point(115, 301)
         Me.profit.Name = "profit"
-        Me.profit.Size = New System.Drawing.Size(257, 20)
+        Me.profit.Size = New System.Drawing.Size(259, 20)
         Me.profit.TabIndex = 30
         '
         'o_price
         '
-        Me.o_price.Location = New System.Drawing.Point(122, 331)
+        Me.o_price.Location = New System.Drawing.Point(115, 274)
         Me.o_price.Name = "o_price"
-        Me.o_price.Size = New System.Drawing.Size(257, 20)
+        Me.o_price.Size = New System.Drawing.Size(259, 20)
         Me.o_price.TabIndex = 29
         '
         'price
         '
-        Me.price.Location = New System.Drawing.Point(122, 305)
+        Me.price.Location = New System.Drawing.Point(115, 248)
         Me.price.Name = "price"
-        Me.price.Size = New System.Drawing.Size(257, 20)
+        Me.price.Size = New System.Drawing.Size(259, 20)
         Me.price.TabIndex = 28
         '
         'exdate
         '
-        Me.exdate.Location = New System.Drawing.Point(122, 278)
+        Me.exdate.Location = New System.Drawing.Point(115, 221)
         Me.exdate.Name = "exdate"
-        Me.exdate.Size = New System.Drawing.Size(257, 20)
+        Me.exdate.Size = New System.Drawing.Size(259, 20)
         Me.exdate.TabIndex = 27
         '
         'nameCat
         '
-        Me.nameCat.Location = New System.Drawing.Point(121, 138)
+        Me.nameCat.Location = New System.Drawing.Point(114, 81)
         Me.nameCat.Name = "nameCat"
         Me.nameCat.Size = New System.Drawing.Size(257, 66)
         Me.nameCat.TabIndex = 26
@@ -190,21 +190,21 @@ Partial Class AddProduct
         '
         'date_arrival
         '
-        Me.date_arrival.Location = New System.Drawing.Point(122, 245)
+        Me.date_arrival.Location = New System.Drawing.Point(115, 188)
         Me.date_arrival.Name = "date_arrival"
-        Me.date_arrival.Size = New System.Drawing.Size(257, 20)
+        Me.date_arrival.Size = New System.Drawing.Size(259, 20)
         Me.date_arrival.TabIndex = 25
         '
         'gen
         '
-        Me.gen.Location = New System.Drawing.Point(122, 112)
+        Me.gen.Location = New System.Drawing.Point(115, 55)
         Me.gen.Name = "gen"
         Me.gen.Size = New System.Drawing.Size(257, 20)
         Me.gen.TabIndex = 24
         '
         'code
         '
-        Me.code.Location = New System.Drawing.Point(122, 80)
+        Me.code.Location = New System.Drawing.Point(115, 23)
         Me.code.Name = "code"
         Me.code.Size = New System.Drawing.Size(257, 20)
         Me.code.TabIndex = 23
@@ -219,7 +219,7 @@ Partial Class AddProduct
         'supplier
         '
         Me.supplier.FormattingEnabled = True
-        Me.supplier.Location = New System.Drawing.Point(123, 384)
+        Me.supplier.Location = New System.Drawing.Point(116, 327)
         Me.supplier.Name = "supplier"
         Me.supplier.Size = New System.Drawing.Size(258, 21)
         Me.supplier.TabIndex = 46
@@ -228,7 +228,7 @@ Partial Class AddProduct
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(390, 524)
+        Me.ClientSize = New System.Drawing.Size(390, 433)
         Me.Controls.Add(Me.supplier)
         Me.Controls.Add(Me.qty_sold)
         Me.Controls.Add(Me.Label4)

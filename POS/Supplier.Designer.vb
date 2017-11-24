@@ -35,7 +35,7 @@ Partial Class Supplier
         Me.DataGridView12.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView12.Location = New System.Drawing.Point(12, 95)
         Me.DataGridView12.Name = "DataGridView12"
-        Me.DataGridView12.Size = New System.Drawing.Size(576, 345)
+        Me.DataGridView12.Size = New System.Drawing.Size(578, 236)
         Me.DataGridView12.TabIndex = 1
         '
         'addsupplierbtn
@@ -56,7 +56,7 @@ Partial Class Supplier
         '
         'deletebtn
         '
-        Me.deletebtn.Location = New System.Drawing.Point(396, 465)
+        Me.deletebtn.Location = New System.Drawing.Point(396, 361)
         Me.deletebtn.Name = "deletebtn"
         Me.deletebtn.Size = New System.Drawing.Size(92, 38)
         Me.deletebtn.TabIndex = 4
@@ -65,7 +65,7 @@ Partial Class Supplier
         '
         'editbtn
         '
-        Me.editbtn.Location = New System.Drawing.Point(494, 465)
+        Me.editbtn.Location = New System.Drawing.Point(494, 361)
         Me.editbtn.Name = "editbtn"
         Me.editbtn.Size = New System.Drawing.Size(94, 38)
         Me.editbtn.TabIndex = 5
@@ -76,7 +76,7 @@ Partial Class Supplier
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(602, 515)
+        Me.ClientSize = New System.Drawing.Size(602, 406)
         Me.Controls.Add(Me.editbtn)
         Me.Controls.Add(Me.deletebtn)
         Me.Controls.Add(Me.TextBox1)
