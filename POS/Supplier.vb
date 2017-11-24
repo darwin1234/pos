@@ -44,4 +44,8 @@ Public Class Supplier
         AddSupplier.MdiParent = mainpos
         AddSupplier.Show()
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        reload("SELECT * FROM products WHERE product_code LIKE '" & TextBox1.Text & "%' ", Me.DataGridView12)
+    End Sub
 End Class
