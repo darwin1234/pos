@@ -107,9 +107,9 @@ Partial Class Sales
         '
         'btnsave
         '
-        Me.btnsave.Location = New System.Drawing.Point(658, 337)
+        Me.btnsave.Location = New System.Drawing.Point(495, 333)
         Me.btnsave.Name = "btnsave"
-        Me.btnsave.Size = New System.Drawing.Size(210, 44)
+        Me.btnsave.Size = New System.Drawing.Size(169, 44)
         Me.btnsave.TabIndex = 22
         Me.btnsave.Text = "Save"
         Me.btnsave.UseVisualStyleBackColor = True
