@@ -18,11 +18,9 @@
     End Sub
 
     Private Sub addbtn_Click(sender As Object, e As EventArgs) Handles addbtn.Click
-
         create("INSERT INTO sales_order (`transaction_id`,`invoice`,`product`,`qty`, `amount`, `profit`, `product_code`, `gen_name`,`name`, `price`, `discount`, `date`) " _
                                & "VALUES('','" & invoice_ & "','" & product_ & "','" & qty_ & "', '" & amount_ & "', '" & profit_ & "', '" & productcode_ & "', '" & genname_ & "','" & name_ & "', '" & price_ & "', '" & discount_ & "', '7/3/1990')")
-        ' reload("SELECT  product_id AS ID ,  product_code AS BrandName,  gen_name AS GenericName , product_name AS Category,  supplier AS Supplier,date_arrival AS DateRecieved, expiry_date AS ExpiryDate,  o_price AS OriginalPrice, price AS SellingPrice, qty_sold AS QTY, qty AS QuantityLeft,(price* qty) AS Total FROM sales_order", Product.DTGLIST)
-
+        reload("SELECT `transaction_id`,`invoice`,`product`,`qty`, `amount`, `profit`, `product_code`, `gen_name`,`name`, `price`, `discount`, `date`FROM sales_order", Product.DTGLIST)
     End Sub
 
     Private Sub Searchtext1_TextChanged(sender As Object, e As EventArgs) Handles Searchtext1.TextChanged
@@ -30,7 +28,8 @@
     End Sub
 
     Private Sub prodlist_DoubleClick(ByVal sender As Object, ByVal e As System.EventArgs) Handles prodlist.DoubleClick
-        ProducTDInfo = prodlist.CurrentRow.Cells(0).Value
+        ''ProducTDInfo = prodlist.CurrentRow.Cells(0).Value
+        ''ProducTDInfo = prodlist.CurrentRow.Cells(1).Value
 
     End Sub
 

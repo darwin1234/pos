@@ -107,9 +107,9 @@ Partial Class Sales
         '
         'btnsave
         '
-        Me.btnsave.Location = New System.Drawing.Point(495, 333)
+        Me.btnsave.Location = New System.Drawing.Point(746, 350)
         Me.btnsave.Name = "btnsave"
-        Me.btnsave.Size = New System.Drawing.Size(169, 44)
+        Me.btnsave.Size = New System.Drawing.Size(122, 44)
         Me.btnsave.TabIndex = 22
         Me.btnsave.Text = "Save"
         Me.btnsave.UseVisualStyleBackColor = True
@@ -176,7 +176,7 @@ Partial Class Sales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(886, 551)
+        Me.ClientSize = New System.Drawing.Size(886, 406)
         Me.Controls.Add(Me.profitinfo)
         Me.Controls.Add(Me.amountinfo)
         Me.Controls.Add(Me.qtyinfo)
